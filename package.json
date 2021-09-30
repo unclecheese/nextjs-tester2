@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "prebuild": "rm -rf .ss-cache && mkdir .ss-cache && touch ./.ss-cache/foo.txt",
     "start": "next start"
   },
   "dependencies": {
